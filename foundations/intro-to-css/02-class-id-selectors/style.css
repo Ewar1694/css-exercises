@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+p {
+    background-color: #f05050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#num1 {
+    color: #0000FF;
+    font-size: 32px;
+}
+
+#num2 {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#num3 {
+    font-size: 24px;
+}
