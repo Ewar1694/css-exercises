@@ -7,15 +7,37 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
   height: 72px;
   background: darkmagenta;
+  font-weight: bolder;
   color: white;
+  font-size: xx-large;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+}
+
+a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .sidebar {
@@ -31,12 +53,13 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   margin-top: 20px;
-  width: 50vh;
-  height: 50vh;
+  width: 500px;
+  height: 500px;
 }
 
 .center-cards{
   padding: 50px;
+  gap: 50px;
   align-content: center;
   display: flex;
   justify-content: space-around;
@@ -44,7 +67,6 @@ body {
 }
 
 .content {
-  background-color: pink;
   flex-grow: 2;
   display: flex;
   gap: 20px;
